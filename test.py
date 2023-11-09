@@ -13,3 +13,4 @@ tensor = tensor.to('cuda')
 
 # 打印 tensor 的设备  # 输出结果应该是 cuda:0，表示 tensor 在第一个 GPU 上。
 print(tensor.device)
+
